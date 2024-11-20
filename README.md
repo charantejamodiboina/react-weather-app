@@ -21,6 +21,8 @@ Follow these steps to set up and run the project on your local machine:
 ## Clone the repository:
 ```
 git clone https://github.com/yourusername/react-vite-weather-app.git
+```
+```
 cd react-vite-weather-app
 ```
 
@@ -42,7 +44,7 @@ npm run dev
 http://localhost:5173
 
 # 🖥️ Usage
-###Get Weather By Location:
+### Get Weather By Location:
 Click on the "Get Weather By Location" button to fetch weather data based on your current location.
-###Search Weather By City:
+### Search Weather By City:
 Enter a city name in the input field and press "Get Weather" to view the weather details for that city.
