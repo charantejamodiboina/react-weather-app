@@ -19,24 +19,24 @@ OpenWeatherMap API: For fetching real-time weather data.
 Follow these steps to set up and run the project on your local machine:
 
 ## Clone the repository:
-'''
+```
 git clone https://github.com/yourusername/react-vite-weather-app.git
 cd react-vite-weather-app
-'''
+```
 
 ## Install dependencies:
-'''
+```
 npm install
-'''
+```
 
 ## Add your OpenWeatherMap API key:
 Sign up at OpenWeatherMap and get your API key.
 Open src/App.jsx and replace your_openweathermap_api_key_here with your API key.
 
 ## Start the development server:
-'''
+```
 npm run dev
-'''
+```
 
 ## Open your browser and navigate to:
 http://localhost:5173
