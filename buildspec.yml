@@ -1,15 +1,20 @@
 version 0.2
 phases:
   install:
+    runtime-versions:
+      nodejs:18
     commands:
-      - npm install
+      - echo Installingdepedencies...
+      - npm ci --legacy-peer-deps
 
   build:
     commands:
+      - echo Building the React app...
       - npm run build
 
 artifact:
   files:
     -'**/*'
   base-directory: dist
+  discard-paths: no
     
